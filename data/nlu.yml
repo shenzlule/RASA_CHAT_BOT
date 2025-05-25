@@ -1,0 +1,206 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_university_type
+  examples: |
+    -What type of university is UMU?
+    -Is Uganda Martyrs University public or private?
+    -Who manages UMU?
+    -Which religion is affiliated with UMU?
+
+- intent: ask_accreditation
+  examples: |
+
+   -Is UMU accredited?
+   -Who licensed Uganda Martyrs University?
+   -Is UMU recognized by the government?
+
+- intent: ask_structure
+  examples: |
+
+    -How is UMU structured?
+    -How many faculties does UMU have?
+    -What are the components of UMU's academic system?
+
+- intent: ask_population
+  examples: |     
+     -How many students does UMU have?
+     -How many people study at Uganda Martyrs University?
+     -What's the population at UMU?
+
+- intent: ask_location
+  examples: |
+     -Where is UMU located?
+     -Where is the main campus of Uganda Martyrs University?
+     -What are the coordinates of UMU?
+     -How far is UMU from Kampala?
+
+- intent: ask_history
+  examples: |
+
+     -When was UMU founded?
+     -Tell me about UMU's history.
+     -How did UMU start?
+
+-  intent: ask_courses
+   examples: |
+
+      -How many courses does UMU offer?
+      -What programs are available at UMU?
+      -Are there new programs at UMU?
+
+-  intent: ask_governance
+   examples: |
+
+     -Who is the Chairperson of UMU?
+     -Who governs UMU?
+     -Who leads UMU's council?
+
+-  intent: ask_campuses
+   examples: |
+
+      -Where are UMU's campuses located?
+      -How many campuses does UMU have?
+      -What are the different campuses of UMU?
+
+-  intent: ask_alumni
+   examples: |
+
+      -Who are some notable people from UMU?
+      -Can you name alumni of Uganda Martyrs University?
+      -Who is the Vice Chancellor of UMU?
+
+-      intent: ask_umu_location
+       examples: |
+           - Where is UMU located?
+           - What is the location of Uganda Martyrs University?
+           - Where can I find the main UMU campus?
+           - Where is Uganda Martyrs University?
+
+-      intent: ask_umu_vc
+       examples: |
+          - Who is the current Vice Chancellor of UMU?
+          - Who is UMU's Vice Chancellor?
+          - Who heads Uganda Martyrs University?
+
+-      intent: ask_umu_faculties
+       examples: |
+          - How many faculties does UMU have?
+          - Number of faculties at Uganda Martyrs University?
+          - What are the faculties at UMU?
+
+-       intent: ask_umu_history
+        examples: |
+         - Tell me about UMU's history
+         - When was Uganda Martyrs University founded?
+         - What is the background of UMU?
+
+-      intent: ask_umu_governance
+       examples: |
+         - Who leads UMU?
+         - Who is the Chairperson of UMU's Governing Council?
+         - Who governs Uganda Martyrs University?
+
+-      intent: ask_umu_campuses
+       examples: |
+         - What campuses does UMU have?
+         - Where are UMU branches located?
+         - Tell me about UMU campuses
+
+-      intent: ask_umu_alumni
+       examples: |
+         - Who are some notable alumni from UMU?
+         - Mention some UMU faculty and alumni
+         - Famous graduates of Uganda Martyrs University
+
+
+

@@ -1,0 +1,113 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_umu_location
+  - ask_umu_vc
+  - ask_umu_faculties
+  - ask_umu_history
+  - ask_umu_governance
+  - ask_umu_campuses
+  - ask_umu_alumni
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_umu_location:
+    - text: "UMU's main campus is located in Nkozi, Mpigi District, Central Uganda. It's about 85 km southwest of Kampala. Coordinates: 0°00'13.0\"N, 32°00'52.0\"E."
+
+  utter_umu_vc:
+    - text: "The current Vice Chancellor of Uganda Martyrs University is Prof. Patrick Edrin Kyamanywa."
+
+  utter_umu_faculties:
+    - text: "UMU has seven faculties, two institutes, nine academic departments, and three specialized schools."
+
+  utter_umu_history:
+    - text: "Uganda Martyrs University was founded in October 1993 with 84 students. By 2018, it offered 136 programs including journalism and inclusive education."
+
+  utter_umu_governance:
+    - text: "UMU is governed by the Episcopal Conference of Uganda. The Chairperson of the Governing Council is Bishop Raphael p'Mony Wokorach."
+
+  utter_umu_campuses:
+    - text: "UMU has campuses in Nkozi, Masaka, Lubaga, Nsambya, Kabale, Moyo, Mbale, Mbarara, Lira, and Fort Portal."
+
+  utter_umu_alumni:
+    - text: "Notable figures include Prof. Kyamanywa, Prof. Maviiri, Prof. Olweny, Jovia Mutesi, and scholar Laura Ariko."
+
+utter_university_type:
+- text: "Uganda Martyrs University (UMU) is a private institution affiliated with the Roman Catholic Church, managed by the Episcopal Conference of the Catholic Bishops of Uganda."
+
+utter_accreditation:
+- text: "UMU is licensed by the Uganda National Council for Higher Education."
+
+utter_structure:
+- text: "UMU features 7 faculties, 2 institutes, 6 campuses, 9 departments, and 3 schools."
+
+utter_population:
+- text: "As of March 2022, UMU had 4,632 students, with 1,500 on campus and about 3,000 in distance learning. It employs over 400 staff."
+
+utter_location:
+- text: "UMU's main campus is in Nkozi, Mpigi District, Central Uganda, 85km southwest of Kampala. Coordinates: 0.003611, 32.014444."
+
+utter_history:
+- text: "UMU was founded in October 1993 with 84 students. It has grown significantly and now offers over 136 courses."
+
+utter_courses:
+- text: "UMU offers 136 courses including programs in Journalism, Inclusive Education, and Engineering at the Fort Portal campus."
+
+utter_governance:
+- text: "The Chairperson of UMU's Governing Council is Raphael p'Mony Wokorach, appointed in June 2023."
+
+utter_campuses:
+- text: |
+UMU operates from multiple campuses:
+- Nkozi (Main Campus)
+- Masaka
+- Lubaga
+- Nsambya
+- Kabale
+- Moyo
+- Mbale
+- Mbarara
+- Lira
+- Fort Portal (Engineering)
+
+utter_alumni:
+- text: |
+Notable individuals affiliated with UMU:
+- David Burrell
+- Paul D’Arbela
+- Prof. Patrick Edrin Kyamanywa (Vice Chancellor)
+- Prof. John Maviiri
+- Prof. Charles Olweny
+- Prof. Laura Ariko
+- Jovia Mutesi
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

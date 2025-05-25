@@ -1,0 +1,65 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: umu location path
+  steps:
+      - intent: ask_umu_location
+      - action: utter_umu_location
+
+- story: umu vc path
+  steps:
+      - intent: ask_umu_vc
+      - action: utter_umu_vc
+
+- story: umu faculties path
+  steps:
+      - intent: ask_umu_faculties
+      - action: utter_umu_faculties
+
+- story: umu history path
+  steps:
+      - intent: ask_umu_history
+      - action: utter_umu_history
+
+- story: umu governance path
+  steps:
+      - intent: ask_umu_governance
+      - action: utter_umu_governance
+
+- story: umu campuses path
+  steps:
+      - intent: ask_umu_campuses
+      - action: utter_umu_campuses
+
+- story: umu alumni path
+  steps:
+      - intent: ask_umu_alumni
+      - action: utter_umu_alumni

@@ -1,0 +1,63 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "ask_umu_alumni": 1,
+        "ask_umu_campuses": 2,
+        "ask_umu_faculties": 3,
+        "ask_umu_governance": 4,
+        "ask_umu_history": 5,
+        "ask_umu_location": 6,
+        "ask_umu_vc": 7,
+        "back": 8,
+        "bot_challenge": 9,
+        "deny": 10,
+        "goodbye": 11,
+        "greet": 12,
+        "mood_great": 13,
+        "mood_unhappy": 14,
+        "nlu_fallback": 15,
+        "out_of_scope": 16,
+        "restart": 17,
+        "session_start": 18
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_cheer_up": 13,
+        "utter_did_that_help": 14,
+        "utter_goodbye": 15,
+        "utter_greet": 16,
+        "utter_happy": 17,
+        "utter_iamabot": 18,
+        "utter_umu_alumni": 19,
+        "utter_umu_campuses": 20,
+        "utter_umu_faculties": 21,
+        "utter_umu_governance": 22,
+        "utter_umu_history": 23,
+        "utter_umu_location": 24,
+        "utter_umu_vc": 25
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": null
+}

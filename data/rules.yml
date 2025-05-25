@@ -1,0 +1,49 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- rule: answer location question
+  steps:
+      - intent: ask_umu_location
+      - action: utter_umu_location
+
+- rule: answer VC question
+  steps:
+      - intent: ask_umu_vc
+      - action: utter_umu_vc
+
+- rule: answer faculties question
+  steps:
+      - intent: ask_umu_faculties
+      - action: utter_umu_faculties
+
+- rule: answer history question
+  steps:
+      - intent: ask_umu_history
+      - action: utter_umu_history
+
+- rule: answer governance question
+  steps:
+      - intent: ask_umu_governance
+      - action: utter_umu_governance
+
+- rule: answer campuses question
+  steps:
+      - intent: ask_umu_campuses
+      - action: utter_umu_campuses
+
+- rule: answer alumni question
+  steps:
+      - intent: ask_umu_alumni
+      - action: utter_umu_alumni
